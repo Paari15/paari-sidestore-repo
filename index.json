@@ -1,0 +1,19 @@
+{
+  "name": "Paari's Repo",
+  "identifier": "com.paari.sidestore",
+  "sourceURL": "https://YOUR-NETLIFY-URL/index.json",
+  "apps": [
+    {
+      "name": "MyApp",
+      "bundleIdentifier": "com.paari.myapp",
+      "developerName": "Paari",
+      "version": "1.0",
+      "versionDate": "2025-08-10T00:00:00Z",
+      "downloadURL": "https://YOUR-NETLIFY-URL/apps/myapp-v1.0.ipa",
+      "iconURL": "https://YOUR-NETLIFY-URL/icons/myapp.png",
+      "localizedDescription": "My single app for SideStore.",
+      "screenshots": [],
+      "size": 12345678
+    }
+  ]
+}
