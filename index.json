@@ -9,7 +9,7 @@
       "developerName": "Paari",
       "version": "1.0",
       "versionDate": "2025-08-10T00:00:00Z",
-      "downloadURL": "https://YOUR-NETLIFY-URL/apps/myapp-v1.0.ipa",
+      "downloadURL": "https://github.com/Paari15/YTLite/releases/download/untagged-ed179b092b6ea4344185/YouTubePlus_5.2b2.ipa",
       "iconURL": "https://YOUR-NETLIFY-URL/icons/myapp.png",
       "localizedDescription": "My single app for SideStore.",
       "screenshots": [],
@@ -17,3 +17,4 @@
     }
   ]
 }
+
