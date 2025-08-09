@@ -1,24 +1,26 @@
 {
-  "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
-  "name": "Paari's Solo Repo",
+  "name": "Paari's Repo",
   "identifier": "com.paari.sidestore",
+  "sourceURL": "https://YOUR-NETLIFY-URL/index.json",
   "sourceURL": "https://raw.githubusercontent.com/Paari15/paari-sidestore-repo/main/index.json",
   "apps": [
     {
+      "name": "MyApp",
+      "bundleIdentifier": "com.paari.myapp",
       "name": "YouTube Plus",
-      "bundleIdentifier": "ACTUAL.BUNDLE.ID",
+      "bundleIdentifier": "ACTUAL.BUNDLE.ID.FROM.IPA",
       "developerName": "Paari",
+      "version": "1.0",
       "version": "5.2b2",
       "versionDate": "2025-08-10T00:00:00Z",
-      "downloadURL": "https://github.com/Paari15/YTLite/releases/download/.../YouTubePlus_5.2b2.ipa",
+      "downloadURL": "https://github.com/Paari15/YTLite/releases/download/untagged-ed179b092b6ea4344185/YouTubePlus_5.2b2.ipa",
+      "iconURL": "https://YOUR-NETLIFY-URL/icons/myapp.png",
+      "localizedDescription": "My single app for SideStore.",
       "iconURL": "https://raw.githubusercontent.com/Paari15/paari-sidestore-repo/main/icons/myapp.png",
-      "screenshots": ["https://raw.githubusercontent.com/Paari15/paari-sidestore-repo/main/icons/ss1.png"],
-      "localizedDescription": "Tweaked YouTube client with extra features like JIT audio boost.",
-      "releaseNotes": "Bug fixes & improved UI",
-      "category": "Media",
-      "permissions": ["LocalNetwork"],
-      "size": ACTUAL_SIZE,
-      "md5": "INSERT_REAL_MD5_HASH"
+      "localizedDescription": "Tweaked YouTube client with extra features.",
+      "screenshots": [],
+      "size": 12345678
+      "size": 121,521,666
     }
   ]
 }
